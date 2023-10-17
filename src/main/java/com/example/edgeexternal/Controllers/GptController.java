@@ -20,7 +20,7 @@ public class GptController {
 
     @GetMapping("rephrase")
     public String rephraseSentence(@RequestParam String message) {
-        String apiKey = "YOUR_API_KEY";
+//        String apiKey = "YOUR_API_KEY";
         try {
 //            CloseableHttpClient httpClient = HttpClients.createDefault();
 //            HttpPost httpPost = new HttpPost("https://api.openai.com/v1/completions");
